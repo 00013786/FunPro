@@ -130,7 +130,7 @@ namespace DbControls
             {
                 this.Validate();
                 this.tbTeacherBindingSource.EndEdit();
-                this.tableAdapterManager.UpdateAll(this.dbDataSet);\
+                this.tableAdapterManager.UpdateAll(this.dbDataSet);
                 MessageBox.Show("Success!");
             }
             catch (Exception ex)
